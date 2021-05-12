@@ -81,7 +81,7 @@ import javax.smartcardio.ResponseAPDU;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class KMFunctionalTest {
+public class KMFunctionalTest_old {
 
   private static final byte INS_BEGIN_KM_CMD = 0x00;
   private static final byte INS_PROVISION_ATTESTATION_KEY_CMD = INS_BEGIN_KM_CMD + 1; //0x01
